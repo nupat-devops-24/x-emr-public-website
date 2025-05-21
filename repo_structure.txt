@@ -1,0 +1,10 @@
+.
+├── features
+│   ├── mobile
+│   │   └── change_password.feature
+│   └── web
+│       └── change_password.feature
+├── README.md
+└── repo_structure.txt
+
+4 directories, 4 files
