@@ -1,7 +1,7 @@
 'use client'
 
 import React, { useState, useEffect } from 'react';
-import { ChevronDown, Menu, X, Star, ArrowRight, Play, Users, Shield, Activity, FileText, Clock, Database } from 'lucide-react';
+import { ChevronDown, Menu, X, ArrowRight, Play, Users, Shield, Activity, FileText, Clock, Database } from 'lucide-react';
 
 export default function XEMRLanding() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -71,7 +71,7 @@ export default function XEMRLanding() {
               X-EMR
             </div>
           </div>
-          
+
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
             <a href="#features" className="hover:text-emerald-300 transition-colors">Features</a>
@@ -87,7 +87,7 @@ export default function XEMRLanding() {
           </div>
 
           {/* Mobile Menu Button */}
-          <button 
+          <button
             className="md:hidden"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
@@ -122,7 +122,7 @@ export default function XEMRLanding() {
               <Shield className="w-4 h-4 mr-2 text-emerald-400" />
               <span className="text-sm">HIPAA Compliant & Secure</span>
             </div>
-            
+
             <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-emerald-200 to-green-200 bg-clip-text text-transparent leading-tight">
               Modern Healthcare
               <br />
@@ -130,12 +130,12 @@ export default function XEMRLanding() {
                 Records Management
               </span>
             </h1>
-            
+
             <p className="text-xl md:text-2xl text-slate-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-              Streamline your practice with X-EMR's comprehensive electronic medical records system. 
+              Streamline your practice with X-EMR&apos;s comprehensive electronic medical records system.
               Enhance patient care, improve efficiency, and ensure compliance.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
               <button className="group bg-gradient-to-r from-emerald-600 to-green-600 px-8 py-4 rounded-full text-lg font-semibold hover:shadow-xl hover:shadow-emerald-500/25 transition-all duration-300 transform hover:scale-105 flex items-center justify-center">
                 Get Started Free
