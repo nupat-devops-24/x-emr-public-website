@@ -1,7 +1,5 @@
-// import Image from "next/image";
+import XEMRLanding from '../components/XEMRLanding';
 
-export default function Home() {
-  return (
-    <p>X-EMR PUBLIC WEBSITE</p>
-  );
+export default function HomePage() {
+  return <XEMRLanding />;
 }
