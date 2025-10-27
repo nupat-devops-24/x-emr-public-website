@@ -132,6 +132,9 @@ export default function XEMRLanding() {
             </h1>
 
             <p className="text-xl md:text-2xl text-slate-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+
+              Streamline your practice with X-EMR&apos;s comprehensive electronic medical records system. 
+
               Streamline your practice with X-EMR&apos;s comprehensive electronic medical records system.
               Enhance patient care, improve efficiency, and ensure compliance.
             </p>

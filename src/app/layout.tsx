@@ -16,6 +16,26 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        {/* Temporary Tailwind CDN for testing */}
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+          {`tailwind.config = {
+            theme: {
+              extend: {
+                colors: {
+                  emerald: {
+                    400: '#34d399',
+                    500: '#10b981',
+                    600: '#059669',
+                    900: '#064e3b'
+                  }
+                }
+              }
+            }
+          }`}
+        </script>
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   )
