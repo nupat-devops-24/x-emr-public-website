@@ -1,0 +1,6 @@
+services: 
+  ppe-service:
+    image: hng_learn
+    container_name: hng_devops
+    ports:
+      - "3000:3000"
